@@ -6,16 +6,16 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border-radius: 5px;
+    flex: auto;
   }
   
   li{
-    float: left;
+   float: left;
   }
   li a {
+    
     display: block;
     text-align: center;
-    padding: 10px 14px;
     text-decoration: none;
   }
   * {
@@ -29,7 +29,7 @@ ul{
     
   }
   .dieu_huong{
-      background-color: rgb(253, 87, 27);
+    background-color: rgb(253, 87, 27);
   }
   .dieu_huong a{
     color: rgb(242, 236, 236);
